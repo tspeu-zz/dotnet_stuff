@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <Folder Include="Customer\" />
+    <Folder Include="Tickets\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CrmApi.Data\CrmApi.Data.csproj" />
+  </ItemGroup>
+</Project>

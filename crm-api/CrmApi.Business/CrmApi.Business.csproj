@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CrmApi.Data\CrmApi.Data.csproj" />
+    <ProjectReference Include="..\CrmApi.DTOs\CrmApi.DTOs.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="ExceptionDtos\" />
+    <Folder Include="Mapper\" />
+    <Folder Include="Interfaces\Tickets\" />
+    <Folder Include="Services\Tickets\" />
+  </ItemGroup>
+</Project>

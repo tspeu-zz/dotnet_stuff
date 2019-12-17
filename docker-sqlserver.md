@@ -70,6 +70,10 @@ use Music insert into Genres (Genre) values ('Rock')
 Server=192.168.X.X,1433;Database=MyDatabase;User Id=sa;Password=SuperSecurePassword;MultipleActiveResultSets=true"
 Server=192.168.1.68,1433;Database=testCRM;User Id=sa;Password=Aa99Dc31Docker;MultipleActiveResultSets=true"
 ############# *****
+
+192.168.0.107
+Server=192.168.0.107,1433;Database=testCRM;User Id=sa;Password=Aa99Dc31Docker;MultipleActiveResultSets=true"
+
 SP_WHO
 ** mostrar conexiones a la db
 KILL spdi
@@ -130,6 +134,7 @@ npm install -g sql-cli
 Connect to SQL Server using the mssql command, followed by the username and password parameters.
 
 mssql -u sa -p reallyStrongPwd123
+mssql -u sa -p Aa99Dc31Docker
 
 ##
 docker start sql_server_demo

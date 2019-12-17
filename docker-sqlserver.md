@@ -152,7 +152,7 @@ use Music insert into Genres (Genre) values ('Rock')
 ##//https://stackoverflow.com/questions/48145881/#can-not-connect-to-sql-server-from-docker-supported-asp-net-core-project
 
 Server=192.168.X.X,1433;Database=MyDatabase;User Id=sa;Password=SuperSecurePassword;MultipleActiveResultSets=true"
-Server=192.168.1.68,1433;Database=testCRM;User Id=sa;Password=Aa99Dc31Docker;MultipleActiveResultSets=true"
+Server=192.168.1.68,1433;Database=testCRM;User Id=sa;Password=1Docker;MultipleActiveResultSets=true"
 ############# *****
 SP_WHO
 ** mostrar conexiones a la db
@@ -174,7 +174,7 @@ DROP TABLE [dbo].[__EFMigrationsHistory]
 GO
 
 ###
-
+##dotnet new webapp -o aspnetcoreapp
 dotnet ef migrations add initial
 dotnet ef database update
 
@@ -212,11 +212,11 @@ docker cp 7cd3221162f8:/var/opt/mssql/data/testCRM-20191030-12-43-48.bak /tmp/te
 #CARGAR VOLUMEN DOCKER
 docker run -e 'ACCEPT_EULA=Y' -e 'MSSQL_SA_PASSWORD=<YourStrong!Passw0rd>' -p 1433:1433 -v sqlvolume:/var/opt/mssql -d mcr.microsoft.com/mssql/server:2019-CTP3.2-ubuntu
 
-docker run -d --name sql_server_CRM_test_ -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Aa99Dc31Docker' -p 1433:1433 microsoft/mssql-server-linux -v CRM_volume:/var/opt/mssql
+docker run -d --name sql_server_CRM_test_ -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Docker' -p 1433:1433 microsoft/mssql-server-linux -v CRM_volume:/var/opt/mssql
 
 -------
 
- docker run -d --name sql_server_CRM_test -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Aa99Dc31Docker' -p 1433:1433 microsoft/mssql-server-linux -v CRM_volume:/var/opt/mssql
+ docker run -d --name sql_server_CRM_test -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Docker' -p 1433:1433 microsoft/mssql-server-linux -v CRM_volume:/var/opt/mssql
 
     FROM  sys.databases
     WHERE [name] = N'testCRM')
@@ -230,7 +230,7 @@ DROP TABLE [dbo].[__EFMigrationsHistory]
 GO
 
 ###
-
+##dotnet new webapp -o aspnetcoreapp
 dotnet ef migrations add initial
 dotnet ef database update
 
@@ -272,20 +272,20 @@ docker cp 7cd3221162f8:/var/opt/mssql/data/testCRM-20191031-15-32-31.bak /tmp/te
 #CARGAR VOLUMEN DOCKER
 docker run -e 'ACCEPT_EULA=Y' -e 'MSSQL_SA_PASSWORD=<YourStrong!Passw0rd>' -p 1433:1433 -v sqlvolume:/var/opt/mssql -d mcr.microsoft.com/mssql/server:2019-CTP3.2-ubuntu
 
-docker run -d --name sql_server_CRM_test_ -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Aa99Dc31Docker' -p 1433:1433 microsoft/mssql-server-linux -v CRM_volume:/var/opt/mssql
+docker run -d --name sql_server_CRM_test_ -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=1Docker' -p 1433:1433 microsoft/mssql-server-linux -v CRM_volume:/var/opt/mssql
 
 -------
 
- docker run -d --name sql_server_CRM_test -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Aa99Dc31Docker' -p 1433:1433 microsoft/mssql-server-linux -v CRM_volume:/var/opt/mssql
+ docker run -d --name sql_server_CRM_test -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=1Docker' -p 1433:1433 microsoft/mssql-server-linux -v CRM_volume:/var/opt/mssql
 
-
+dotnet new webapp -o aspnetcoreapp
 
 # MIGRATIONS - EF
 dotnet ef migrations add initial
 dotnet ef database update
 
 # SCAFOLDING DB OK net 3,0->
- dotnet ef dbcontext scaffold "Server=cursos-enfermeria-net-prod.mysql.database.azure.com;Database=aula-salud_dev2;User=adadmin@cursos-enfermeria-net-prod;Password=x9K8XWyikYgqLJH9;TreatTinyAsBoolean=true;" "Pomelo.EntityFrameworkCore.MySql"
+ dotnet ef dbcontext scaffold "Server=database.azure.com;Database=dev2;User=dadmin;Password=???????;TreatTinyAsBoolean=true;" "Pomelo.EntityFrameworkCore.MySql"
 
 ##
 Docker

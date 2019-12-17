@@ -169,7 +169,7 @@ DROP TABLE [dbo].[__EFMigrationsHistory]
 GO
 
 ###
-
+##dotnet new webapp -o aspnetcoreapp
 dotnet ef migrations add initial
 dotnet ef database update
 
@@ -225,7 +225,7 @@ DROP TABLE [dbo].[__EFMigrationsHistory]
 GO
 
 ###
-
+##dotnet new webapp -o aspnetcoreapp
 dotnet ef migrations add initial
 dotnet ef database update
 

@@ -273,7 +273,7 @@ docker run -d --name sql_server_CRM_test_ -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=1Do
 
  docker run -d --name sql_server_CRM_test -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=1Docker' -p 1433:1433 microsoft/mssql-server-linux -v CRM_volume:/var/opt/mssql
 
-
+dotnet new webapp -o aspnetcoreapp
 
 # MIGRATIONS - EF
 dotnet ef migrations add initial

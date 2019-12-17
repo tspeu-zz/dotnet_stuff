@@ -1,0 +1,54 @@
+Select Code from Countries - > ['ES', 'AR', 'CO', 'MX', 'PE',...]
+--
+Select SeoUrl from Areas  -> ['educacion','enfermeria','escuela-de-idiomas','escuela-de-negocios',
+                            'farmacia','filosofia','fisioterapia','medicina','nutricion',
+                            'odontologia','psicologia']
+--
+Select SeoUrl from CourseTypeCountries 
+WHERE SeoUrl NOT IN ('eir', 'posgrado')
+                                -> ['cfc',
+                                    'clases-conversacion-online','curso','curso-universitario',
+                                    'diplomado','especializacion','evaluacion-oficial','examenes-oficiales',
+                                    'experto-universitario','grado','licenciatura','maestria','maestria-oficial',
+                                    'maestria-rvoe','master','master-universitario','ope-enfermeria']
+-----------------------------------------------------------------------------------------------------
+for (let i =0; i < paises.length; i++) {
+  console.log(paises[i]);
+  for (let j = 0; j < facultades.length; j++) {
+    console.log(facultades[j]);
+    for(let k = 0; k < categorias.length; k++) {
+        console.log(categorias[k]);
+   
+           UPDATE dbo.CourseData as cd
+           SET  cd.TotalAmount = 
+                              ( SELECT  pa.Amount * pfs.Value * ( 
+                                      Select   pc.[Value] * pf.[Value] 
+                                      AS value_Pais_Fac_Cat
+                                      FROM ProductCountryModifiers pc 
+                                      LEFT JOIN ProductCountryFacultyModifiers AS pf on pf.CountryCode = pc.CountryCode
+                                      WHERE pc.CountryCode = paises[i]
+                                      AND pf.FacultyUrl = facultades[j]
+                                      AND pc.CategoryUrl = categorias[k] )
+                                AS AMOUNT_TOTAL
+                                FROM [dbo].[CourseTypeCountries] ct
+                                INNER JOIN ProductAmounts as pa on pa.CategoryUrl = ct.Name
+                                JOIN ProductFacultyStudyModifiers as pfs On pfs.CategoryUrl = ct.name
+                                JOIN Countries as c ON c.id = ct.CountryId
+                                WHERE pfs.FacultyUrl = facultades[j]
+                                AND ct.SeoUrl = categorias[k]
+                                And c.Code = paises[i]
+                              )
+          FROM dbo.CourseData as cd
+              left join countries as c on c.id = cd.CountryId
+              left join CourseTypeCountries as ct on ct.Id = cd.CourseTypeCountryId
+              left join Courses as cr  on cr.id = cd.CourseId
+              left join CourseAreas as ca on ca.CourseId = cr.id
+              left join Areas as a on a.id = ca.AreaId
+          where c.Code = paises[i]
+          and a.SeoUrl = facultades[j]
+          AND ct.SeoUrl = categorias[k]
+
+    }
+  }
+}
+

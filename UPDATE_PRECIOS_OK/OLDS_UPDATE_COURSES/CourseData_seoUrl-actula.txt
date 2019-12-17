@@ -1,0 +1,30 @@
+
+"SeoUrl": "cfc",                                |   421
+"SeoUrl": "clase-conversacion-idiomas",         |  1152
+"SeoUrl": "curso-oficial-idiomas",              |  1152
+"SeoUrl": "curso-universitario",                |  3981
+"SeoUrl": "diplomado",                          | 19999 -> 43310
+"SeoUrl": "especializacion",                    | 18507
+"SeoUrl": "evaluacion-oficial-idiomas",         |   192
+"SeoUrl": "examen-oficial-idiomas",             |  1152
+"SeoUrl": "experto-universitario",              |  1702
+"SeoUrl": "grado",                              |     4
+"SeoUrl": "licenciatura",                       |    44
+"SeoUrl": "maestria",                           |  4759
+"SeoUrl": "maestria-oficial",                   |   316
+"SeoUrl": "maestria-rvoe",                      |    14
+"SeoUrl": "master",                             |   443
+"SeoUrl": "master-universitario",               |    29
+"SeoUrl": "ope-enfermeria",                     |    14
+"SeoUrl": "programa-desarrollo-directivo"       |  1488
+
+cfc,                       
+clase-conversacion-idiomas,curso-oficial-idiomas, curso-universitario, diplomado, especializacion,  evaluacion-oficial-idiomas,examen-oficial-idiomas,    experto-universitario,     grado,                     licenciatura,              maestria,                  maestria-oficial,          maestria-rvoe,             master,                    master-universitario,      ope-enfermeria,            
+
+"curso-universitario","diplomado","experto-universitario","especializacion","grado","licenciatura", 
+"master","maestria","master-universitario","maestria-oficial","maestria-rvoe", 
+
+
+
+
+

@@ -1,0 +1,551 @@
+AMOUNT,Code,FacultyUrl,CategoryUrl
+0,ES,educacion,CFC
+0,ES,enfermeria,CFC
+0,ES,escuela-de-idiomas,CFC
+99,ES,escuela-de-negocios,CFC
+0,ES,farmacia,CFC
+0,ES,filosofia,CFC
+0,ES,fisioterapia,CFC
+0,ES,medicina,CFC
+0,ES,nutricion,CFC
+0,ES,odontologia,CFC
+0,ES,psicologia,CFC
+0,PE,educacion,CFC
+0,PE,enfermeria,CFC
+0,PE,escuela-de-idiomas,CFC
+99,PE,escuela-de-negocios,CFC
+0,PE,farmacia,CFC
+0,PE,filosofia,CFC
+0,PE,fisioterapia,CFC
+0,PE,medicina,CFC
+0,PE,nutricion,CFC
+0,PE,odontologia,CFC
+0,PE,psicologia,CFC
+0,CO,educacion,CFC
+0,CO,enfermeria,CFC
+0,CO,escuela-de-idiomas,CFC
+99,CO,escuela-de-negocios,CFC
+0,CO,farmacia,CFC
+0,CO,filosofia,CFC
+0,CO,fisioterapia,CFC
+0,CO,medicina,CFC
+0,CO,nutricion,CFC
+0,CO,odontologia,CFC
+0,CO,psicologia,CFC
+0,AR,educacion,CFC
+0,AR,enfermeria,CFC
+0,AR,escuela-de-idiomas,CFC
+99,AR,escuela-de-negocios,CFC
+0,AR,farmacia,CFC
+0,AR,filosofia,CFC
+0,AR,fisioterapia,CFC
+0,AR,medicina,CFC
+0,AR,nutricion,CFC
+0,AR,odontologia,CFC
+0,AR,psicologia,CFC
+0,MX,educacion,CFC
+0,MX,enfermeria,CFC
+0,MX,escuela-de-idiomas,CFC
+99,MX,escuela-de-negocios,CFC
+0,MX,farmacia,CFC
+0,MX,filosofia,CFC
+0,MX,fisioterapia,CFC
+0,MX,medicina,CFC
+0,MX,nutricion,CFC
+0,MX,odontologia,CFC
+0,MX,psicologia,CFC
+0,CO,psicologia,Clases en directo
+0,CO,odontologia,Clases en directo
+0,CO,nutricion,Clases en directo
+0,CO,medicina,Clases en directo
+0,CO,fisioterapia,Clases en directo
+0,CO,farmacia,Clases en directo
+0,CO,filosofia,Clases en directo
+940,CO,escuela-de-negocios,Clases en directo
+0,CO,enfermeria,Clases en directo
+0,CO,escuela-de-idiomas,Clases en directo
+0,CO,educacion,Clases en directo
+0,MX,psicologia,Clases en directo
+0,MX,odontologia,Clases en directo
+0,MX,nutricion,Clases en directo
+0,MX,medicina,Clases en directo
+0,MX,fisioterapia,Clases en directo
+0,MX,farmacia,Clases en directo
+0,MX,filosofia,Clases en directo
+940,MX,escuela-de-negocios,Clases en directo
+0,MX,enfermeria,Clases en directo
+0,MX,escuela-de-idiomas,Clases en directo
+0,MX,educacion,Clases en directo
+0,AR,psicologia,Clases en directo
+0,AR,odontologia,Clases en directo
+0,AR,nutricion,Clases en directo
+0,AR,medicina,Clases en directo
+0,AR,fisioterapia,Clases en directo
+0,AR,farmacia,Clases en directo
+0,AR,filosofia,Clases en directo
+940,AR,escuela-de-negocios,Clases en directo
+0,AR,enfermeria,Clases en directo
+0,AR,escuela-de-idiomas,Clases en directo
+0,AR,educacion,Clases en directo
+0,PE,psicologia,Clases en directo
+0,PE,odontologia,Clases en directo
+0,PE,nutricion,Clases en directo
+0,PE,medicina,Clases en directo
+0,PE,fisioterapia,Clases en directo
+0,PE,farmacia,Clases en directo
+0,PE,filosofia,Clases en directo
+940,PE,escuela-de-negocios,Clases en directo
+0,PE,enfermeria,Clases en directo
+0,PE,escuela-de-idiomas,Clases en directo
+0,PE,educacion,Clases en directo
+0,ES,psicologia,Clases en directo
+0,ES,odontologia,Clases en directo
+0,ES,nutricion,Clases en directo
+0,ES,medicina,Clases en directo
+0,ES,fisioterapia,Clases en directo
+0,ES,farmacia,Clases en directo
+0,ES,filosofia,Clases en directo
+940,ES,escuela-de-negocios,Clases en directo
+0,ES,enfermeria,Clases en directo
+0,ES,escuela-de-idiomas,Clases en directo
+0,ES,educacion,Clases en directo
+39,ES,educacion,curso
+52,ES,enfermeria,curso
+65,ES,escuela-de-idiomas,curso
+65,ES,escuela-de-negocios,curso
+65,ES,filosofia,curso
+65,ES,farmacia,curso
+45.5,ES,fisioterapia,curso
+65,ES,medicina,curso
+65,ES,nutricion,curso
+81.25,ES,odontologia,curso
+45.5,ES,psicologia,curso
+39,PE,educacion,curso
+52,PE,enfermeria,curso
+65,PE,escuela-de-idiomas,curso
+65,PE,escuela-de-negocios,curso
+65,PE,filosofia,curso
+65,PE,farmacia,curso
+45.5,PE,fisioterapia,curso
+65,PE,medicina,curso
+65,PE,nutricion,curso
+81.25,PE,odontologia,curso
+45.5,PE,psicologia,curso
+39,AR,educacion,curso
+52,AR,enfermeria,curso
+65,AR,escuela-de-idiomas,curso
+65,AR,escuela-de-negocios,curso
+65,AR,filosofia,curso
+65,AR,farmacia,curso
+45.5,AR,fisioterapia,curso
+65,AR,medicina,curso
+65,AR,nutricion,curso
+81.25,AR,odontologia,curso
+45.5,AR,psicologia,curso
+39,CO,educacion,curso
+52,CO,enfermeria,curso
+65,CO,escuela-de-idiomas,curso
+65,CO,escuela-de-negocios,curso
+65,CO,filosofia,curso
+65,CO,farmacia,curso
+45.5,CO,fisioterapia,curso
+65,CO,medicina,curso
+65,CO,nutricion,curso
+81.25,CO,odontologia,curso
+45.5,CO,psicologia,curso
+39,MX,educacion,curso
+52,MX,enfermeria,curso
+65,MX,escuela-de-idiomas,curso
+65,MX,escuela-de-negocios,curso
+65,MX,filosofia,curso
+65,MX,farmacia,curso
+45.5,MX,fisioterapia,curso
+65,MX,medicina,curso
+65,MX,nutricion,curso
+81.25,MX,odontologia,curso
+45.5,MX,psicologia,curso
+0,CO,farmacia,Evaluación Oficial
+0,CO,escuela-de-idiomas,Evaluación Oficial
+210,CO,escuela-de-negocios,Evaluación Oficial
+0,CO,enfermeria,Evaluación Oficial
+0,CO,educacion,Evaluación Oficial
+0,CO,psicologia,Evaluación Oficial
+0,CO,odontologia,Evaluación Oficial
+0,CO,nutricion,Evaluación Oficial
+0,CO,medicina,Evaluación Oficial
+0,CO,fisioterapia,Evaluación Oficial
+0,CO,filosofia,Evaluación Oficial
+0,MX,farmacia,Evaluación Oficial
+0,MX,escuela-de-idiomas,Evaluación Oficial
+210,MX,escuela-de-negocios,Evaluación Oficial
+0,MX,enfermeria,Evaluación Oficial
+0,MX,educacion,Evaluación Oficial
+0,MX,psicologia,Evaluación Oficial
+0,MX,odontologia,Evaluación Oficial
+0,MX,nutricion,Evaluación Oficial
+0,MX,medicina,Evaluación Oficial
+0,MX,fisioterapia,Evaluación Oficial
+0,MX,filosofia,Evaluación Oficial
+0,AR,farmacia,Evaluación Oficial
+0,AR,escuela-de-idiomas,Evaluación Oficial
+210,AR,escuela-de-negocios,Evaluación Oficial
+0,AR,enfermeria,Evaluación Oficial
+0,AR,educacion,Evaluación Oficial
+0,AR,psicologia,Evaluación Oficial
+0,AR,odontologia,Evaluación Oficial
+0,AR,nutricion,Evaluación Oficial
+0,AR,medicina,Evaluación Oficial
+0,AR,fisioterapia,Evaluación Oficial
+0,AR,filosofia,Evaluación Oficial
+0,PE,farmacia,Evaluación Oficial
+0,PE,escuela-de-idiomas,Evaluación Oficial
+210,PE,escuela-de-negocios,Evaluación Oficial
+0,PE,enfermeria,Evaluación Oficial
+0,PE,educacion,Evaluación Oficial
+0,PE,psicologia,Evaluación Oficial
+0,PE,odontologia,Evaluación Oficial
+0,PE,nutricion,Evaluación Oficial
+0,PE,medicina,Evaluación Oficial
+0,PE,fisioterapia,Evaluación Oficial
+0,PE,filosofia,Evaluación Oficial
+0,ES,farmacia,Evaluación Oficial
+0,ES,escuela-de-idiomas,Evaluación Oficial
+210,ES,escuela-de-negocios,Evaluación Oficial
+0,ES,enfermeria,Evaluación Oficial
+0,ES,educacion,Evaluación Oficial
+0,ES,psicologia,Evaluación Oficial
+0,ES,odontologia,Evaluación Oficial
+0,ES,nutricion,Evaluación Oficial
+0,ES,medicina,Evaluación Oficial
+0,ES,fisioterapia,Evaluación Oficial
+0,ES,filosofia,Evaluación Oficial
+0,ES,fisioterapia,Examen Oficial
+0,ES,medicina,Examen Oficial
+0,ES,nutricion,Examen Oficial
+0,ES,odontologia,Examen Oficial
+0,ES,psicologia,Examen Oficial
+0,ES,educacion,Examen Oficial
+0,ES,enfermeria,Examen Oficial
+0,ES,escuela-de-idiomas,Examen Oficial
+210,ES,escuela-de-negocios,Examen Oficial
+0,ES,filosofia,Examen Oficial
+0,ES,farmacia,Examen Oficial
+0,PE,fisioterapia,Examen Oficial
+0,PE,medicina,Examen Oficial
+0,PE,nutricion,Examen Oficial
+0,PE,odontologia,Examen Oficial
+0,PE,psicologia,Examen Oficial
+0,PE,educacion,Examen Oficial
+0,PE,enfermeria,Examen Oficial
+0,PE,escuela-de-idiomas,Examen Oficial
+210,PE,escuela-de-negocios,Examen Oficial
+0,PE,filosofia,Examen Oficial
+0,PE,farmacia,Examen Oficial
+0,AR,fisioterapia,Examen Oficial
+0,AR,medicina,Examen Oficial
+0,AR,nutricion,Examen Oficial
+0,AR,odontologia,Examen Oficial
+0,AR,psicologia,Examen Oficial
+0,AR,educacion,Examen Oficial
+0,AR,enfermeria,Examen Oficial
+0,AR,escuela-de-idiomas,Examen Oficial
+210,AR,escuela-de-negocios,Examen Oficial
+0,AR,filosofia,Examen Oficial
+0,AR,farmacia,Examen Oficial
+0,MX,fisioterapia,Examen Oficial
+0,MX,medicina,Examen Oficial
+0,MX,nutricion,Examen Oficial
+0,MX,odontologia,Examen Oficial
+0,MX,psicologia,Examen Oficial
+0,MX,educacion,Examen Oficial
+0,MX,enfermeria,Examen Oficial
+0,MX,escuela-de-idiomas,Examen Oficial
+210,MX,escuela-de-negocios,Examen Oficial
+0,MX,filosofia,Examen Oficial
+0,MX,farmacia,Examen Oficial
+0,CO,fisioterapia,Examen Oficial
+0,CO,medicina,Examen Oficial
+0,CO,nutricion,Examen Oficial
+0,CO,odontologia,Examen Oficial
+0,CO,psicologia,Examen Oficial
+0,CO,educacion,Examen Oficial
+0,CO,enfermeria,Examen Oficial
+0,CO,escuela-de-idiomas,Examen Oficial
+210,CO,escuela-de-negocios,Examen Oficial
+0,CO,filosofia,Examen Oficial
+0,CO,farmacia,Examen Oficial
+1750,ES,escuela-de-negocios,experto
+1750,ES,farmacia,experto
+1750,ES,escuela-de-idiomas,experto
+1750,ES,enfermeria,experto
+1750,ES,educacion,experto
+1750,ES,psicologia,experto
+2187.5,ES,odontologia,experto
+1750,ES,nutricion,experto
+1750,ES,medicina,experto
+1750,ES,filosofia,experto
+1750,ES,fisioterapia,experto
+1750,PE,escuela-de-negocios,experto
+1750,PE,farmacia,experto
+1750,PE,escuela-de-idiomas,experto
+1750,PE,enfermeria,experto
+1750,PE,educacion,experto
+1750,PE,psicologia,experto
+2187.5,PE,odontologia,experto
+1750,PE,nutricion,experto
+1750,PE,medicina,experto
+1750,PE,filosofia,experto
+1750,PE,fisioterapia,experto
+1750,AR,escuela-de-negocios,experto
+1750,AR,farmacia,experto
+1750,AR,escuela-de-idiomas,experto
+1750,AR,enfermeria,experto
+1750,AR,educacion,experto
+1750,AR,psicologia,experto
+2187.5,AR,odontologia,experto
+1750,AR,nutricion,experto
+1750,AR,medicina,experto
+1750,AR,filosofia,experto
+1750,AR,fisioterapia,experto
+1750,CO,escuela-de-negocios,experto
+1750,CO,farmacia,experto
+1750,CO,escuela-de-idiomas,experto
+1750,CO,enfermeria,experto
+1750,CO,educacion,experto
+1750,CO,psicologia,experto
+2187.5,CO,odontologia,experto
+1750,CO,nutricion,experto
+1750,CO,medicina,experto
+1750,CO,filosofia,experto
+1750,CO,fisioterapia,experto
+1750,MX,escuela-de-negocios,experto
+1750,MX,farmacia,experto
+1750,MX,escuela-de-idiomas,experto
+1750,MX,enfermeria,experto
+1750,MX,educacion,experto
+1750,MX,psicologia,experto
+2187.5,MX,odontologia,experto
+1750,MX,nutricion,experto
+1750,MX,medicina,experto
+1750,MX,filosofia,experto
+1750,MX,fisioterapia,experto
+1450,ES,fisioterapia,grado
+1450,ES,medicina,grado
+1450,ES,nutricion,grado
+1450,ES,psicologia,grado
+1812.5,ES,odontologia,grado
+1450,ES,educacion,grado
+1450,ES,enfermeria,grado
+1450,ES,escuela-de-idiomas,grado
+1450,ES,farmacia,grado
+1450,ES,escuela-de-negocios,grado
+1450,ES,filosofia,grado
+1450,PE,fisioterapia,grado
+1450,PE,medicina,grado
+1450,PE,nutricion,grado
+1450,PE,psicologia,grado
+1812.5,PE,odontologia,grado
+1450,PE,educacion,grado
+1450,PE,enfermeria,grado
+1450,PE,escuela-de-idiomas,grado
+1450,PE,farmacia,grado
+1450,PE,escuela-de-negocios,grado
+1450,PE,filosofia,grado
+1450,AR,fisioterapia,grado
+1450,AR,medicina,grado
+1450,AR,nutricion,grado
+1450,AR,psicologia,grado
+1812.5,AR,odontologia,grado
+1450,AR,educacion,grado
+1450,AR,enfermeria,grado
+1450,AR,escuela-de-idiomas,grado
+1450,AR,farmacia,grado
+1450,AR,escuela-de-negocios,grado
+1450,AR,filosofia,grado
+1450,CO,fisioterapia,grado
+1450,CO,medicina,grado
+1450,CO,nutricion,grado
+1450,CO,psicologia,grado
+1812.5,CO,odontologia,grado
+1450,CO,educacion,grado
+1450,CO,enfermeria,grado
+1450,CO,escuela-de-idiomas,grado
+1450,CO,farmacia,grado
+1450,CO,escuela-de-negocios,grado
+1450,CO,filosofia,grado
+1450,MX,fisioterapia,grado
+1450,MX,medicina,grado
+1450,MX,nutricion,grado
+1450,MX,psicologia,grado
+1812.5,MX,odontologia,grado
+1450,MX,educacion,grado
+1450,MX,enfermeria,grado
+1450,MX,escuela-de-idiomas,grado
+1450,MX,farmacia,grado
+1450,MX,escuela-de-negocios,grado
+1450,MX,filosofia,grado
+3900,MX,filosofia,master
+3900,MX,escuela-de-negocios,master
+3900,MX,farmacia,master
+3900,MX,escuela-de-idiomas,master
+3900,MX,enfermeria,master
+3900,MX,educacion,master
+4875,MX,odontologia,master
+3900,MX,psicologia,master
+3900,MX,nutricion,master
+3900,MX,medicina,master
+3900,MX,fisioterapia,master
+3900,CO,filosofia,master
+3900,CO,escuela-de-negocios,master
+3900,CO,farmacia,master
+3900,CO,escuela-de-idiomas,master
+3900,CO,enfermeria,master
+3900,CO,educacion,master
+4875,CO,odontologia,master
+3900,CO,psicologia,master
+3900,CO,nutricion,master
+3900,CO,medicina,master
+3900,CO,fisioterapia,master
+3900,AR,filosofia,master
+3900,AR,escuela-de-negocios,master
+3900,AR,farmacia,master
+3900,AR,escuela-de-idiomas,master
+3900,AR,enfermeria,master
+3900,AR,educacion,master
+4875,AR,odontologia,master
+3900,AR,psicologia,master
+3900,AR,nutricion,master
+3900,AR,medicina,master
+3900,AR,fisioterapia,master
+3900,PE,filosofia,master
+3900,PE,escuela-de-negocios,master
+3900,PE,farmacia,master
+3900,PE,escuela-de-idiomas,master
+3900,PE,enfermeria,master
+3900,PE,educacion,master
+4875,PE,odontologia,master
+3900,PE,psicologia,master
+3900,PE,nutricion,master
+3900,PE,medicina,master
+3900,PE,fisioterapia,master
+3900,ES,filosofia,master
+3900,ES,escuela-de-negocios,master
+3900,ES,farmacia,master
+3900,ES,escuela-de-idiomas,master
+3900,ES,enfermeria,master
+3900,ES,educacion,master
+4875,ES,odontologia,master
+3900,ES,psicologia,master
+3900,ES,nutricion,master
+3900,ES,medicina,master
+3900,ES,fisioterapia,master
+3900,ES,fisioterapia,master-universitario
+3900,ES,medicina,master-universitario
+3900,ES,nutricion,master-universitario
+4875,ES,odontologia,master-universitario
+3900,ES,psicologia,master-universitario
+3900,ES,educacion,master-universitario
+3900,ES,enfermeria,master-universitario
+3900,ES,escuela-de-idiomas,master-universitario
+3900,ES,farmacia,master-universitario
+3900,ES,escuela-de-negocios,master-universitario
+3900,ES,filosofia,master-universitario
+3900,PE,fisioterapia,master-universitario
+3900,PE,medicina,master-universitario
+3900,PE,nutricion,master-universitario
+4875,PE,odontologia,master-universitario
+3900,PE,psicologia,master-universitario
+3900,PE,educacion,master-universitario
+3900,PE,enfermeria,master-universitario
+3900,PE,escuela-de-idiomas,master-universitario
+3900,PE,farmacia,master-universitario
+3900,PE,escuela-de-negocios,master-universitario
+3900,PE,filosofia,master-universitario
+3900,AR,fisioterapia,master-universitario
+3900,AR,medicina,master-universitario
+3900,AR,nutricion,master-universitario
+4875,AR,odontologia,master-universitario
+3900,AR,psicologia,master-universitario
+3900,AR,educacion,master-universitario
+3900,AR,enfermeria,master-universitario
+3900,AR,escuela-de-idiomas,master-universitario
+3900,AR,farmacia,master-universitario
+3900,AR,escuela-de-negocios,master-universitario
+3900,AR,filosofia,master-universitario
+3900,CO,fisioterapia,master-universitario
+3900,CO,medicina,master-universitario
+3900,CO,nutricion,master-universitario
+4875,CO,odontologia,master-universitario
+3900,CO,psicologia,master-universitario
+3900,CO,educacion,master-universitario
+3900,CO,enfermeria,master-universitario
+3900,CO,escuela-de-idiomas,master-universitario
+3900,CO,farmacia,master-universitario
+3900,CO,escuela-de-negocios,master-universitario
+3900,CO,filosofia,master-universitario
+3900,MX,fisioterapia,master-universitario
+3900,MX,medicina,master-universitario
+3900,MX,nutricion,master-universitario
+4875,MX,odontologia,master-universitario
+3900,MX,psicologia,master-universitario
+3900,MX,educacion,master-universitario
+3900,MX,enfermeria,master-universitario
+3900,MX,escuela-de-idiomas,master-universitario
+3900,MX,farmacia,master-universitario
+3900,MX,escuela-de-negocios,master-universitario
+3900,MX,filosofia,master-universitario
+0,ES,farmacia,oposiciones
+0,ES,filosofia,oposiciones
+790,ES,escuela-de-negocios,oposiciones
+0,ES,escuela-de-idiomas,oposiciones
+0,ES,educacion,oposiciones
+0,ES,enfermeria,oposiciones
+0,ES,nutricion,oposiciones
+0,ES,odontologia,oposiciones
+0,ES,psicologia,oposiciones
+0,ES,medicina,oposiciones
+0,ES,fisioterapia,oposiciones
+0,PE,farmacia,oposiciones
+0,PE,filosofia,oposiciones
+790,PE,escuela-de-negocios,oposiciones
+0,PE,escuela-de-idiomas,oposiciones
+0,PE,educacion,oposiciones
+0,PE,enfermeria,oposiciones
+0,PE,nutricion,oposiciones
+0,PE,odontologia,oposiciones
+0,PE,psicologia,oposiciones
+0,PE,medicina,oposiciones
+0,PE,fisioterapia,oposiciones
+0,CO,farmacia,oposiciones
+0,CO,filosofia,oposiciones
+790,CO,escuela-de-negocios,oposiciones
+0,CO,escuela-de-idiomas,oposiciones
+0,CO,educacion,oposiciones
+0,CO,enfermeria,oposiciones
+0,CO,nutricion,oposiciones
+0,CO,odontologia,oposiciones
+0,CO,psicologia,oposiciones
+0,CO,medicina,oposiciones
+0,CO,fisioterapia,oposiciones
+0,AR,farmacia,oposiciones
+0,AR,filosofia,oposiciones
+790,AR,escuela-de-negocios,oposiciones
+0,AR,escuela-de-idiomas,oposiciones
+0,AR,educacion,oposiciones
+0,AR,enfermeria,oposiciones
+0,AR,nutricion,oposiciones
+0,AR,odontologia,oposiciones
+0,AR,psicologia,oposiciones
+0,AR,medicina,oposiciones
+0,AR,fisioterapia,oposiciones
+0,MX,farmacia,oposiciones
+0,MX,filosofia,oposiciones
+790,MX,escuela-de-negocios,oposiciones
+0,MX,escuela-de-idiomas,oposiciones
+0,MX,educacion,oposiciones
+0,MX,enfermeria,oposiciones
+0,MX,nutricion,oposiciones
+0,MX,odontologia,oposiciones
+0,MX,psicologia,oposiciones
+0,MX,medicina,oposiciones
+0,MX,fisioterapia,oposiciones
